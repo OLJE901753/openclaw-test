@@ -1,0 +1,27 @@
+---
+description: Project usage and terminal command conventions
+alwaysApply: true
+---
+
+# Project Conventions
+
+## Not for Work
+
+This project should **not** be used for work. It is for personal, learning, or experimental use only.
+
+## No Git
+
+Do **not** connect this project to git. Do not run `git init`, add remotes, or push to repositories.
+
+## Terminal Commands
+
+When running multiple commands, **do not chain them with `&&`**. Use separate commands instead.
+
+```bash
+# ❌ Avoid
+cd "c:\Users\olive\Desktop\Openclaw" && npm install
+
+# ✅ Use separate commands
+cd "c:\Users\olive\Desktop\Openclaw"
+npm install
+```
